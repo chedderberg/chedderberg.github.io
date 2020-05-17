@@ -1,0 +1,23 @@
+body {
+    font-size: 16px;
+    background-color: blanchedalmond;
+}
+
+header,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: lightskyblue;
+    color: black;
+}
+
+main section p{
+    margin: 5px;
+    border: 1px solid; 
+    padding: 5px;
+    background-color: white
+}
