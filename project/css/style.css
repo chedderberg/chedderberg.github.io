@@ -4,9 +4,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-header,
-main,
-footer {
+header, main, footer {
     max-width: 960px;
     margin: 0 auto;
 }
@@ -19,15 +17,15 @@ header {
     justify-content: space-around;
 }
 
-
 header>img {
     width: 100px;
     height: auto;
 }
-    
+
 h1 {
     color: black;
-    font-family: 'Amiri', serif;;
+    font-family: 'Amiri', serif;
+    ;
 }
 
 header nav ul {
@@ -37,7 +35,7 @@ header nav ul {
 }
 
 header nav ul {
-    flex:11 auto
+    flex: 11 auto
 }
 
 header nav ul li a {
@@ -45,7 +43,7 @@ header nav ul li a {
     text-decoration: none;
     font-size: 1.1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display:block;
+    display: block;
     padding: .75rem;
 }
 
@@ -54,25 +52,28 @@ header nav ul li a {
     border-bottom: 1px solid yellow;
     padding-bottom: .2rem;
 }
-main section p{
+
+main section p {
     margin: 5px;
-    border: 1px solid; 
+    border: 1px solid;
     padding: 5px;
     background-color: white
 }
 
-footer{
+footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.social{
+.social {
     text-align: right;
 }
+
 .social img {
     width: 50px;
     height: auto;
 }
+
 .copyright {
     text-align: center;
     width: 800px;
